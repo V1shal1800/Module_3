@@ -1,0 +1,116 @@
+body{
+	background-color: 	white;
+	box-sizing: border-box;
+}
+
+
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 2px solid black;
+	margin: 0;
+}
+
+#Brand1{
+	color: black;
+	vertical-align: middle;
+}
+
+#dropb{
+	vertical-align: middle;
+}
+
+.container{
+	margin-left: 0;
+}
+
+.row{
+	margin: 15px;
+}
+
+@media(min-width: 992px){
+	.col-md-12{
+		background-color: grey;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 8px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-weight: bolder;
+	}
+
+	#spacemaker{
+		height: 100px;
+		width:0;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-sm-12{
+		background-color: grey;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 8px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-weight: bolder;
+	}
+
+	#spacemaker{
+		height: 100px;
+		width:0;
+	}
+}
+
+@media(max-width: 767px){
+	.col-xs-12{
+		width: auto;
+		background-color: grey;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 8px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-weight: bolder;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	#dropb{
+		position: relative;
+		bottom: 25px;
+	}
+
+}
+
+#header1{
+	margin-bottom: 50px;
+	font-weight: bolder;
+}
+
+h3{
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: white;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 125%;
+}
+#nav-list a:hover {
+  background: grey;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
